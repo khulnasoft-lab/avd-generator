@@ -20,9 +20,9 @@ import (
 
 	"github.com/valyala/fastjson"
 
-	"github.com/aquasecurity/avd-generator/menu"
 	"github.com/aquasecurity/vuln-list-update/redhat"
 	"github.com/aquasecurity/vuln-list-update/ubuntu"
+	"github.com/khulnasoft-lab/avd-generator/menu"
 )
 
 var (

@@ -11,8 +11,8 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/aquasecurity/avd-generator/menu"
-	"github.com/aquasecurity/avd-generator/util"
+	"github.com/khulnasoft-lab/avd-generator/menu"
+	"github.com/khulnasoft-lab/avd-generator/util"
 	"gopkg.in/yaml.v3"
 
 	"github.com/aquasecurity/defsec/pkg/framework"

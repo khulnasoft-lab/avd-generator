@@ -12,8 +12,8 @@ import (
 
 	"golang.org/x/exp/slices"
 
-	"github.com/aquasecurity/avd-generator/menu"
-	"github.com/aquasecurity/avd-generator/util"
+	"github.com/khulnasoft-lab/avd-generator/menu"
+	"github.com/khulnasoft-lab/avd-generator/util"
 )
 
 func generateCloudSploitPages(inputPagesDir, outputPagesDir, remediationsDir string) {

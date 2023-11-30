@@ -8,7 +8,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/aquasecurity/avd-generator/util"
+	"github.com/khulnasoft-lab/avd-generator/util"
 )
 
 var headingMap = map[string]string{
