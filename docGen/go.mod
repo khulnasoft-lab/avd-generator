@@ -4,10 +4,10 @@ go 1.20
 
 require (
 	github.com/Masterminds/semver v1.5.0
-	github.com/aquasecurity/defsec v0.93.2-0.20231016232629-e1ce1b3bb3ba
+	github.com/aquasecurity/defsec v0.93.2-0.20231123232427-d6403766fc87
 	github.com/aquasecurity/tracee v0.7.0
-	github.com/aquasecurity/trivy-iac v0.3.0
-	github.com/aquasecurity/trivy-policies v0.3.0
+	github.com/aquasecurity/trivy-iac v0.5.2
+	github.com/aquasecurity/trivy-policies v0.6.1-0.20231120231532-f6f2330bf842
 	github.com/aquasecurity/vuln-list-update v0.0.0-20191016075347-3d158c2bf9a2
 	github.com/leekchan/gtf v0.0.0-20190214083521-5fba33c5b00b
 	github.com/stretchr/testify v1.8.4
@@ -37,14 +37,14 @@ require (
 	github.com/prometheus/procfs v0.10.1 // indirect
 	github.com/skeema/knownhosts v1.2.0 // indirect
 	github.com/tchap/go-patricia/v2 v2.3.1 // indirect
-	go.opentelemetry.io/otel v1.16.0 // indirect
-	go.opentelemetry.io/otel/metric v1.16.0 // indirect
-	go.opentelemetry.io/otel/sdk v1.16.0 // indirect
-	go.opentelemetry.io/otel/trace v1.16.0 // indirect
+	go.opentelemetry.io/otel v1.19.0 // indirect
+	go.opentelemetry.io/otel/metric v1.19.0 // indirect
+	go.opentelemetry.io/otel/sdk v1.19.0 // indirect
+	go.opentelemetry.io/otel/trace v1.19.0 // indirect
 	golang.org/x/mod v0.10.0 // indirect
 	golang.org/x/tools v0.8.0 // indirect
 	google.golang.org/protobuf v1.31.0 // indirect
-	sigs.k8s.io/yaml v1.3.0 // indirect
+	sigs.k8s.io/yaml v1.4.0 // indirect
 )
 
 require (
@@ -65,15 +65,15 @@ require (
 	github.com/go-git/go-billy/v5 v5.4.1 // indirect
 	github.com/go-git/go-git/v5 v5.8.1 // indirect
 	github.com/gobwas/glob v0.2.3 // indirect
-	github.com/google/uuid v1.3.1 // indirect
-	github.com/hashicorp/hcl/v2 v2.18.1 // indirect
+	github.com/google/uuid v1.4.0 // indirect
+	github.com/hashicorp/hcl/v2 v2.19.1 // indirect
 	github.com/jbenet/go-context v0.0.0-20150711004518-d14ea06fba99 // indirect
 	github.com/kevinburke/ssh_config v1.2.0 // indirect
 	github.com/liamg/iamgo v0.0.9 // indirect
 	github.com/liamg/jfather v0.0.7 // indirect
 	github.com/mattn/go-runewidth v0.0.13 // indirect
 	github.com/mitchellh/go-wordwrap v1.0.1 // indirect
-	github.com/open-policy-agent/opa v0.57.0 // indirect
+	github.com/open-policy-agent/opa v0.58.0 // indirect
 	github.com/owenrumney/squealer v1.2.1 // indirect
 	github.com/parnurzeal/gorequest v0.2.16 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
@@ -91,7 +91,7 @@ require (
 	golang.org/x/exp v0.0.0-20230510235704-dd950f8aeaea
 	golang.org/x/net v0.17.0 // indirect
 	golang.org/x/sys v0.13.0 // indirect
-	golang.org/x/text v0.13.0 // indirect
+	golang.org/x/text v0.14.0 // indirect
 	golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2 // indirect
 	gopkg.in/cheggaaa/pb.v1 v1.0.28 // indirect
 	gopkg.in/warnings.v0 v0.1.2 // indirect
