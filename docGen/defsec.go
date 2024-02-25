@@ -11,8 +11,8 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/khulnasoft-lab/avd-generator/menu"
-	"github.com/khulnasoft-lab/avd-generator/util"
+	"github.com/aquasecurity/avd-generator/menu"
+	"github.com/aquasecurity/avd-generator/util"
 	"gopkg.in/yaml.v3"
 
 	"github.com/aquasecurity/defsec/pkg/framework"
@@ -394,7 +394,7 @@ avd_page_type: avd_page
 {{ .Description }}
 
 **Control Checks**
-{{ range .Checks }}* [{{ .ID }}](https://avd.khulnasoft.com/misconfig/{{ .ID | toLower }}){{ .ID | getSummary }}{{ end }}
+{{ range .Checks }}* [{{ .ID }}](https://avd.aquasec.com/misconfig/{{ .ID | toLower }}){{ .ID | getSummary }}{{ end }}
 
 
 `

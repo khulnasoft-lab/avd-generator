@@ -28,8 +28,8 @@ github.com/aquasecurity/tracee/types v0.0.0-20220228102148-dffb469aed94 h1:8dNst
 github.com/aquasecurity/tracee/types v0.0.0-20220228102148-dffb469aed94/go.mod h1:l8MikK8yNCxoFVFq+WqvRg3kiDUX4wDTQwo7oD7YnWM=
 github.com/aquasecurity/trivy-policies v0.9.0 h1:BNFX2vaTBBauGRyVTacZ4gMjwC49bu7LnV3ShA0/Z1M=
 github.com/aquasecurity/trivy-policies v0.9.0/go.mod h1:BACx7zvHL6BQjcr9h8PeSpIs7e/DQRLQdTIE14vJUWk=
-github.com/khulnasoft-lab/vuln-list-update v0.0.0-20191016075347-3d158c2bf9a2 h1:xbdUfr2KE4THsFx9CFWtWpU91lF+YhgP46moV94nYTA=
-github.com/khulnasoft-lab/vuln-list-update v0.0.0-20191016075347-3d158c2bf9a2/go.mod h1:6NhOP0CjZJL27bZZcaHECtzWdwDDm2g6yCY0QgXEGQQ=
+github.com/aquasecurity/vuln-list-update v0.0.0-20191016075347-3d158c2bf9a2 h1:xbdUfr2KE4THsFx9CFWtWpU91lF+YhgP46moV94nYTA=
+github.com/aquasecurity/vuln-list-update v0.0.0-20191016075347-3d158c2bf9a2/go.mod h1:6NhOP0CjZJL27bZZcaHECtzWdwDDm2g6yCY0QgXEGQQ=
 github.com/araddon/dateparse v0.0.0-20190426192744-0d74ffceef83 h1:ukTLOeMC0aVxbJWVg6hOsVJ0VPIo8w++PbNsze/pqF8=
 github.com/araddon/dateparse v0.0.0-20190426192744-0d74ffceef83/go.mod h1:SLqhdZcd+dF3TEVL2RMoob5bBP5R1P1qkox+HtCBgGI=
 github.com/arbovm/levenshtein v0.0.0-20160628152529-48b4e1c0c4d0 h1:jfIu9sQUG6Ig+0+Ap1h4unLjW6YQJpKZVmUzxsD4E/Q=

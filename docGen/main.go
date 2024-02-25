@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/khulnasoft-lab/avd-generator/menu"
+	"github.com/aquasecurity/avd-generator/menu"
 )
 
 var (

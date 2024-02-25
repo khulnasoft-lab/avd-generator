@@ -1,6 +1,6 @@
 ################################# Default configuration ###################
 # provide your domain here
-baseURL = "https://avd.khulnasoft.com/"
+baseURL = "https://avd.aquasec.com/"
 #baseURL = "/"
 
 # theme
@@ -32,7 +32,7 @@ paginate = 100
 ################################# navigation ################################
 [[menu.main]]
 name = "Aqua Blog"
-url = "https://blog.khulnasoft.com"
+url = "https://blog.aquasec.com"
 weight = 1
 
 # Dropdown menu
@@ -106,7 +106,7 @@ link = "https://www.linkedin.com/company/aquasecteam/"
 languageName = "En"
 languageCode = "en-us"
 weight = 1
-copyright = "Aqua Vulnerability DB is a copyright © of Khulnasoft Security Software Ltd."
+copyright = "Aqua Vulnerability DB is a copyright © of Aqua Security Software Ltd."
 
 # banner
 [Languages.en.params.banner]

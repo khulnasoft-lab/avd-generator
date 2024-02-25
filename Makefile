@@ -13,8 +13,8 @@ md-clean:
 
 md-clone-all:
 	# git clone git@github.com:aquasecurity/avd.git avd-repo/
-	git clone git@github.com:khulnasoft-lab/vuln-list.git avd-repo/vuln-list
-	git clone git@github.com:khulnasoft-lab/vuln-list-nvd.git avd-repo/vuln-list-nvd
+	git clone git@github.com:aquasecurity/vuln-list.git avd-repo/vuln-list
+	git clone git@github.com:aquasecurity/vuln-list-nvd.git avd-repo/vuln-list-nvd
 	git clone git@github.com:aquasecurity/kube-hunter.git avd-repo/kube-hunter-repo
 	git clone git@github.com:aquasecurity/kube-bench.git avd-repo/kube-bench-repo
 	git clone git@github.com:aquasecurity/chain-bench.git avd-repo/chain-bench-repo
@@ -57,7 +57,7 @@ hugo-clean:
 
 hugo-generate: hugo-clean
 	cd avd-repo && hugo --destination=docs
-	echo "avd.khulnasoft.com" > avd-repo/docs/CNAME
+	echo "avd.aquasec.com" > avd-repo/docs/CNAME
 
 simple-host:
 	cd avd-repo && python3 -m http.server

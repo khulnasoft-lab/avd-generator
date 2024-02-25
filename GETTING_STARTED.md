@@ -3,7 +3,7 @@
 This guide seeks to provide you with a crash course to adding a new check type or make updates to existing checks.
 
 
-There is the accompanying [PowerPoint](https://aquasecurity-my.sharepoint.com/:p:/g/personal/owen_rumney_khulnasoft.com/EX8RJOYqP1JKn-uDECphuLEBi_8Pougq9AH3JVFxPToQag?e=zJe43p) which is used in the video too.
+There is the accompanying [PowerPoint](https://aquasecurity-my.sharepoint.com/:p:/g/personal/owen_rumney_aquasec_com/EX8RJOYqP1JKn-uDECphuLEBi_8Pougq9AH3JVFxPToQag?e=zJe43p) which is used in the video too.
 
 
 ## Local Development
