@@ -12,16 +12,16 @@ md-clean:
 	rm -f ./generator
 
 md-clone-all:
-	# git clone https://github.com/aquasecurity/avd.git avd-repo/
-	git clone https://github.com/aquasecurity/vuln-list.git avd-repo/vuln-list
-	git clone https://github.com/aquasecurity/vuln-list-nvd.git avd-repo/vuln-list-nvd
-	git clone https://github.com/aquasecurity/kube-hunter.git avd-repo/kube-hunter-repo
-	git clone https://github.com/aquasecurity/kube-bench.git avd-repo/kube-bench-repo
-	git clone https://github.com/aquasecurity/chain-bench.git avd-repo/chain-bench-repo
-	git clone https://github.com/aquasecurity/cloud-security-remediation-guides.git avd-repo/remediations-repo
-	git clone https://github.com/aquasecurity/tracee.git avd-repo/tracee-repo
-	git clone https://github.com/aquasecurity/trivy-policies.git avd-repo/trivy-policies-repo
-	git clone https://github.com/aquasecurity/cloudsploit.git avd-repo/cloudsploit-repo
+	# git clone git@github.com:aquasecurity/avd.git avd-repo/
+	git clone git@github.com:aquasecurity/vuln-list.git avd-repo/vuln-list
+	git clone git@github.com:aquasecurity/vuln-list-nvd.git avd-repo/vuln-list-nvd
+	git clone git@github.com:aquasecurity/kube-hunter.git avd-repo/kube-hunter-repo
+	git clone git@github.com:aquasecurity/kube-bench.git avd-repo/kube-bench-repo
+	git clone git@github.com:aquasecurity/chain-bench.git avd-repo/chain-bench-repo
+	git clone git@github.com:aquasecurity/cloud-security-remediation-guides.git avd-repo/remediations-repo
+	git clone git@github.com:aquasecurity/tracee.git avd-repo/tracee-repo
+	git clone git@github.com:aquasecurity/trivy-policies.git avd-repo/trivy-policies-repo
+	git clone git@github.com:aquasecurity/cloudsploit.git avd-repo/cloudsploit-repo
 
 update-all-repos:
 	cd avd-repo/vuln-list && git pull
