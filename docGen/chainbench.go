@@ -12,7 +12,7 @@ import (
 	"path/filepath"
 
 	"github.com/Masterminds/semver"
-	"github.com/khulnasoft-lab/avd-generator/menu"
+	"github.com/aquasecurity/avd-generator/menu"
 	"gopkg.in/yaml.v3"
 )
 

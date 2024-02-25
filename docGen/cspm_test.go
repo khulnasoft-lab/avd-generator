@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/khulnasoft-lab/avd-generator/menu"
+	"github.com/aquasecurity/avd-generator/menu"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
