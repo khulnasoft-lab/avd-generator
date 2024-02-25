@@ -11,14 +11,14 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/khulnasoft-lab/avd-generator/menu"
-	"github.com/khulnasoft-lab/avd-generator/util"
+	"github.com/aquasecurity/avd-generator/menu"
+	"github.com/aquasecurity/avd-generator/util"
 	"gopkg.in/yaml.v3"
 
 	"github.com/aquasecurity/defsec/pkg/framework"
+	_ "github.com/aquasecurity/defsec/pkg/rego"
+	"github.com/aquasecurity/defsec/pkg/rules"
 	"github.com/aquasecurity/defsec/pkg/scan"
-	_ "github.com/aquasecurity/trivy-iac/pkg/rego"
-	"github.com/aquasecurity/trivy-policies/pkg/rules"
 )
 
 type DefsecComplianceSpec struct {

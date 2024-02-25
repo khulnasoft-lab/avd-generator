@@ -28,63 +28,63 @@ jobs:
       - name: Checkout public vuln-list-repo
         uses: actions/checkout@v3
         with:
-          repository: aquasecurity/vuln-list
+          repository: khulnasoft-lab/vuln-list
           token: ${{ secrets.ORG_REPO_TOKEN }}
           path: avd-repo/vuln-list
 
       - name: Checkout public vuln-list-nvd-repo
         uses: actions/checkout@v3
         with:
-          repository: aquasecurity/vuln-list-nvd
+          repository: khulnasoft-lab/vuln-list-nvd
           token: ${{ secrets.ORG_REPO_TOKEN }}
           path: avd-repo/vuln-list-nvd
 
       - name: Checkout public kube-hunter-repo
         uses: actions/checkout@v3
         with:
-          repository: aquasecurity/kube-hunter
+          repository: khulnasoft-lab/kube-hunter
           token: ${{ secrets.ORG_REPO_TOKEN }}
           path: avd-repo/kube-hunter-repo
 
       - name: Checkout public cloud-security-remediation-guides-repo
         uses: actions/checkout@v3
         with:
-          repository: aquasecurity/cloud-security-remediation-guides
+          repository: khulnasoft-lab/cloud-security-remediation-guides
           token: ${{ secrets.ORG_REPO_TOKEN }}
           path: avd-repo/remediations-repo
 
       - name: Checkout public tracee-repo
         uses: actions/checkout@v3
         with:
-          repository: aquasecurity/tracee
+          repository: khulnasoft-lab/tracee
           token: ${{ secrets.ORG_REPO_TOKEN }}
           path: avd-repo/tracee-repo
 
       - name: Checkout public cloudsploit-repo
         uses: actions/checkout@v3
         with:
-          repository: aquasecurity/cloudsploit
+          repository: khulnasoft-lab/cloudsploit
           token: ${{ secrets.ORG_REPO_TOKEN }}
           path: avd-repo/cloudsploit-repo
 
       - name: Checkout public trivy-policies-repo
         uses: actions/checkout@v3
         with:
-          repository: aquasecurity/trivy-policies
+          repository: khulnasoft-lab/trivy-policies
           token: ${{ secrets.ORG_REPO_TOKEN }}
           path: avd-repo/trivy-policies-repo
 
       - name: Checkout public kube-bench-repo
         uses: actions/checkout@v3
         with:
-          repository: aquasecurity/kube-bench
+          repository: khulnasoft-lab/kube-bench
           token: ${{ secrets.ORG_REPO_TOKEN }}
           path: avd-repo/kube-bench-repo
 
       - name: Checkout private chain-bench-repo
         uses: actions/checkout@v3
         with:
-          repository: aquasecurity/chain-bench
+          repository: khulnasoft-lab/chain-bench
           token: ${{ secrets.ORG_REPO_TOKEN }}
           path: avd-repo/chain-bench-repo
 
