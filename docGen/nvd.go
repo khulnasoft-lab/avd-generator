@@ -21,8 +21,8 @@ import (
 	"github.com/valyala/fastjson"
 
 	"github.com/khulnasoft-lab/avd-generator/menu"
-	"github.com/aquasecurity/vuln-list-update/redhat"
-	"github.com/aquasecurity/vuln-list-update/ubuntu"
+	"github.com/khulnasoft-lab/vuln-list-update/redhat"
+	"github.com/khulnasoft-lab/vuln-list-update/ubuntu"
 )
 
 var (

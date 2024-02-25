@@ -28,14 +28,14 @@ jobs:
       - name: Checkout public vuln-list-repo
         uses: actions/checkout@v3
         with:
-          repository: aquasecurity/vuln-list
+          repository: khulnasoft-lab/vuln-list
           token: ${{ secrets.ORG_REPO_TOKEN }}
           path: avd-repo/vuln-list
 
       - name: Checkout public vuln-list-nvd-repo
         uses: actions/checkout@v3
         with:
-          repository: aquasecurity/vuln-list-nvd
+          repository: khulnasoft-lab/vuln-list-nvd
           token: ${{ secrets.ORG_REPO_TOKEN }}
           path: avd-repo/vuln-list-nvd
 
