@@ -16,9 +16,9 @@ import (
 	"gopkg.in/yaml.v3"
 
 	"github.com/aquasecurity/defsec/pkg/framework"
+	_ "github.com/aquasecurity/defsec/pkg/rego"
+	"github.com/aquasecurity/defsec/pkg/rules"
 	"github.com/aquasecurity/defsec/pkg/scan"
-	_ "github.com/aquasecurity/trivy-iac/pkg/rego"
-	"github.com/aquasecurity/trivy-policies/pkg/rules"
 )
 
 type DefsecComplianceSpec struct {
@@ -394,7 +394,7 @@ avd_page_type: avd_page
 {{ .Description }}
 
 **Control Checks**
-{{ range .Checks }}* [{{ .ID }}](https://avd.aquasec.com/misconfig/{{ .ID | toLower }}){{ .ID | getSummary }}{{ end }}
+{{ range .Checks }}* [{{ .ID }}](https://avd.khulnasoft.com/misconfig/{{ .ID | toLower }}){{ .ID | getSummary }}{{ end }}
 
 
 `

@@ -12,9 +12,9 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/aquasecurity/tracee/pkg/rules/regosig"
 	"github.com/khulnasoft-lab/avd-generator/menu"
 	"github.com/khulnasoft-lab/avd-generator/util"
+	"github.com/aquasecurity/tracee/pkg/rules/regosig"
 )
 
 var (
